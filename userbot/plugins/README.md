@@ -4,7 +4,7 @@ None
 ```
 There is None Mandatory Imports. Because Var, bot and command are already automatically imported.
 
-## Explanation
+### Explanation
 The Mandatory Imports are now automatically imported.
 
 ### Formation
