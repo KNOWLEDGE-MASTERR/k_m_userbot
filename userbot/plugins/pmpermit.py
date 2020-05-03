@@ -54,7 +54,8 @@ if Var.PRIVATE_GROUP_ID is not None:
         chat = await event.get_chat()
         if event.is_private:
           if chat.id == 953414679:
-            await event.edit("U tried to block my master, u bitch")
+            await event.edit("U tried to block my master, u bitch i will sleep for 100 sec to punish u")
+            await asyncio.sleep(100)
           else:
             if pmpermit_sql.is_approved(chat.id):
                 pmpermit_sql.disapprove(chat.id)
