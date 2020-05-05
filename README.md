@@ -7,14 +7,14 @@ For any query or want to know how it works join
 ### Installing
 
 ### The Easy Way
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/indianbhaiya/IndianBot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/knowledge-master/userbot)
 
 ### The Normal Way
 
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github.com/indianbhaiya/IndianBot
-cd Indianbot
+git clone https://github.com/knowledge-master/userbot
+cd Knowledge-Master-Userbot
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
