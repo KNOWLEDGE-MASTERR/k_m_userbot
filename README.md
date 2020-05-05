@@ -1,7 +1,7 @@
-# IndianBot
+# KnowledgeMaster's-Userbot
 
 For any query or want to know how it works join
-## https://t.me/IndianBot_Official
+## https://t.me/knowledge_masterr
 
 ## FORK AT YOUR OWN RISK
 ### Installing
