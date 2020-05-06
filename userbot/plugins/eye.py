@@ -37,7 +37,7 @@ async def _(event):
             "👁👁\n  👄  =====> Abey Ja Na Randi",
             "👁👁\n  👅  =====> Abey Ja Na Bhosdk",    
             "👁👁\n  💋  =====> Abey Ja Na Chutiye",
-            "👁👁\n  👄  =====> Hi All, How Are You Guys..."
+            "👁👁\n  👄  =====> Hi All, This is @knowledge_masterr !!! \n How Are You Guys..."
         ]
 
     for i in animation_ttl:
