@@ -48,7 +48,7 @@ async def _(event):
             "`Hacking... 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `\n\nSTATUS:-\nDownloading Bruteforce-Telegram-0.1.tar.gz (9.3 kB)\n**{DOWNLOADED}**\n\nCollecting Data Packages (23.1 kB)\n**{COLLECTED}**\n\nDownloading Telegram-Data-Sniffer-7.1.1-py2.py3-none-any.whl (82 kB)",    
             "`Hacking... 20%\n█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `\n\nSTATUS:-\nDownloading Bruteforce-Telegram-0.1.tar.gz (9.3 kB)\n**{DOWNLOADED}**\n\nCollecting Data Packages (23.1 kB)\n**{COLLECTED}**\n\nDownloading Telegram-Data-Sniffer-7.1.1-py2.py3-none-any.whl (82 kB)\n**{DOWNLOADED}**\n\nBuilding wheel for Tg-Bruteforcing (setup.py)",
 
-            "`Hacking... 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `\n\nSTATUS:-\nDownloading Bruteforce-Telegram-0.1.tar.gz (9.3 kB)\n**{DOWNLOADED}**\n\nCollecting Data Packages (23.1 kB)\n**{COLLECTED}**\n\nDownloading Telegram-Data-Sniffer-7.1.1-py2.py3-none-any.whl (82 kB)\n**{DOWNLOADED}**\n\nBuilding wheel for Tg-Bruteforcing (setup.py)\n**{DONE}**\n\n",
+            "`Hacking... 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `\n\nSTATUS:-\nDownloading Bruteforce-Telegram-0.1.tar.gz (9.3 kB)\n**{DOWNLOADED}**\n\nCollecting Data Packages (23.1 kB)\n**{COLLECTED}**\n\nDownloading Telegram-Data-Sniffer-7.1.1-py2.py3-none-any.whl (82 kB)\n**{DOWNLOADED}**\n\nBuilding wheel for Tg-Bruteforcing (setup.py)\n**{DONE}**\n\nCreating wheel for telegram: filename=Telegram-Data-Sniffer-0.0.1-py3-none-any.whl size=1306 sha256=cb224caad7fe01a6649188c62303cd4697c1869fa12d280570bb6ac6a88e6b7e",
 
             "`Hacking... 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Hacking... 84%\n█████████████████████▒▒▒▒ `",
