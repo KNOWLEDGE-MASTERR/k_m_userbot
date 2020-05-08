@@ -41,11 +41,11 @@ async def _(event):
             await event.edit("Hacking..")
             animation_chars = [
         
-            "`Connecting To Hacked Private Server...`",
-            "`Target Selected.`",
-            "`Hacking... 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Hacking... 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Hacking... 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",    
+            "`Connecting To Hacked Private Server...`\n\nSTATUS:-",
+            "`Target Selected.`\n\nSTATUS:-\nStarting...",
+            "`Hacking... 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `\n\nSTATUS:-\nDownloading Bruteforce-Telegram-0.1.tar.gz (9.3 kB)",
+            "`Hacking... 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `\n\nSTATUS:-\nDownloading Bruteforce-Telegram-0.1.tar.gz (9.3 kB)\n**{DOWNLOADED}**\n\nCollecting Data Packages (23.1 kB)",
+            "`Hacking... 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `\n\nSTATUS:-\nDownloading Bruteforce-Telegram-0.1.tar.gz (9.3 kB)\n**{DOWNLOADED}**\n\nCollecting Data Packages (23.1 kB)\n**{COLEECTED}**\n\n",    
             "`Hacking... 20%\n█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Hacking... 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Hacking... 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
