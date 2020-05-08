@@ -1,6 +1,6 @@
 """Emoji
 Available Commands:
-.pureindialover
+.knowledge_masterr
 Credits to @knowledge_masterr
 """
 
