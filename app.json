@@ -1,7 +1,7 @@
 {
-  "name": "IndianBot",
-  "description": "Userbot created by a IndianBhai and join https://t.me/IndianArMyGiveaway for any problems or support",
-  "logo": "https://telegra.ph/file/a79203c2aba1c0a2aeeb7.jpg",
+  "name": "K_M_UserBot",
+  "description": "Userbot created by a PRO named KBOWLEDGE MASTER (https://t.me/knowledge_masterr); For any help related to this JOIN https://t.me/k_m_userbot_support",
+  "logo": "https://telegra.ph/file/e72a6b87077aaba99a3ce.jpg",
     "keywords": [
     "telegram",
     "userbot",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/indianbhaiya/IndianBot/",
+  "repository": "https://github.com/KNOWLEDGE-MASTERR/k_m_userbot",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
