@@ -16,7 +16,7 @@ from userbot import ALIVE_NAME
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@knowledge_masterr"
 
-@borg.on(admin_cmd(pattern="MY INFO"))
+@borg.on(admin_cmd(pattern=r"MY INFO"))
 
 async def _(event):
 
