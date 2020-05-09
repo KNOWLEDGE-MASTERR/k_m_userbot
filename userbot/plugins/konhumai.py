@@ -8,7 +8,7 @@ import asyncio
 
 from uniborg.util import admin_cmd
 
-{DEFAULTUSER} = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
+{DEFAULTUSER} = str(ALIVE_NAME)
 
 @borg.on(admin_cmd(pattern="MY INFO"))
 
