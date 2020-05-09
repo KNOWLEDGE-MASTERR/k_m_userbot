@@ -12,7 +12,7 @@ import asyncio
 
 from uniborg.util import admin_cmd
 
-DEFAULTUSER=str(ALIVE_NAME)
+DEFAULTUSERb= (ALIVE_NAME)
 
 @borg.on(admin_cmd(pattern="MY INFO"))
 
