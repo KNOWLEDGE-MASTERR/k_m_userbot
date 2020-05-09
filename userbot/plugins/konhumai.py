@@ -1,10 +1,8 @@
 """Emoji
-
 Available Commands:
-
 .konhumai
-
-CREDITS TO @knowledge_masterr"""
+CREDITS TO @knowledge_masterr
+"""
 
 from telethon import events
 
