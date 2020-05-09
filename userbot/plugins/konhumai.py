@@ -8,9 +8,9 @@ import asyncio
 
 from uniborg.util import admin_cmd
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
+{DEFAULTUSER} = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 
-@borg.on(admin_cmd(pattern=r"MY INFO"))
+@borg.on(admin_cmd(pattern="MY INFO"))
 
 async def _(event):
 
@@ -18,9 +18,9 @@ async def _(event):
 
         return
 
-    animation_interval = 1
+    animation_interval = 2
 
-    animation_ttl = range(0, 10)
+    animation_ttl = range(0, 36)
 
     #input_str = event.pattern_match.group(2)
 
@@ -46,4 +46,4 @@ async def _(event):
 
         await asyncio.sleep(animation_interval)
 
-        await event.edit(animation_chars[i % 24])
+        await event.edit(animation_chars[i % 10])
