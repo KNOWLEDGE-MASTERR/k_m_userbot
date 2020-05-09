@@ -8,29 +8,24 @@ from telethon import events
 
 import asyncio
 
-from uniborg.util import admin_cmd
+from uniborg.utils import admin_cmd
 
 from userbot import ALIVE_NAME
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@knowledge_masterr"
 
-@borg.on(admin_cmd(pattern=r"MY INFO"))
 
+@borg.on(admin_cmd("MY INFO"))
 async def _(event):
-
     if event.fwd_from:
-
         return
-
     animation_interval = 2
-
     animation_ttl = range(0, 10)
 
     #input_str = event.pattern_match.group(1)
-
   #  if input_str == "konhumai":
 
-    await event.edit("mai kon hu batata hoo bsdk...")
+    await event.edit("mai_kon_hu_batata_hoo_bsdk...")
 
     animation_chars = [
         
@@ -43,11 +38,10 @@ async def _(event):
                       "{DEFAULTUSER} teri maa ko kothe me baithane wala",
                       "{DEFAULTUSER} ke talwe tera baaap chatta hai",
                       "{DEFAULTUSER} aakhir tera baap hi to hai",
-                      "{DEFAULTUSER} hoo mai",
- ]
+                      "{DEFAULTUSER} hoo mai"
+                       ]
 
     for i in animation_ttl:
 
         await asyncio.sleep(animation_interval)
-
         await event.edit(animation_chars[i % 10])
