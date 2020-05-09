@@ -12,7 +12,9 @@ import asyncio
 
 from uniborg.util import admin_cmd
 
-DEFAULTUSER = str(ALIVE_NAME)
+from userbot import ALIVE_NAME
+
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@knowledge_masterr"
 
 @borg.on(admin_cmd(pattern="MY INFO"))
 
