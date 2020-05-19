@@ -54,7 +54,7 @@ async def _(event):
     #packshortname = f"K_M_USERBOT_{userid}_ns"  # format: Uni_Borg_userid
     if userid == 991867857:
         packname = f"@telegrmking SIMPLE STICKERS"
-        packshortname = "TELEGRAM_KING_SIMPLE_PACK"
+        packshortname = "TELEGRM_KING_SIMPLE_PACK"
     else:
         packname = f"K_M_Userbot_{userid}"
         packshortname = f"K_M_Userbot_{userid}_ns"
@@ -69,7 +69,7 @@ async def _(event):
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
         if userid == 991867857:
             packname = f"@telegrmking animated stickers"
-            packshortname = "TELEGRAM_KING_ANIMATED_PACK"
+            packshortname = "TELEGRM_KING_ANIMATED_PACK"
         else:
             packname = f"{userid}'s kang pack"
             packshortname = f"KM_Userbot_{userid}" # format: Uni_Borg_userid
