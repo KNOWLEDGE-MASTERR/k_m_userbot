@@ -14,8 +14,8 @@ from userbot.utils import admin_cmd
 async def _(event):
     if event.fwd_from:
         return
-    animation_interval = 0.1
-    animation_ttl = range(0,36)
+    animation_interval = 0.2
+    animation_ttl = range(0,18)
     #input_str = event.pattern_match.group(1)
    # if input_str == "sunny":
     await event.edit("sunny")
@@ -23,7 +23,7 @@ async def _(event):
             "S",
             "U",
             "N",
-            "N",
+            "NN",
             "Y",
             "FUCK",
             "U",
