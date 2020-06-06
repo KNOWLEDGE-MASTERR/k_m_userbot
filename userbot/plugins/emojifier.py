@@ -1,4 +1,8 @@
 """QuotLy: Avaible commands: .qbot
+MADE BY @telegrmking
+CREDITS TO @telegrmking
+
+IF YOU CHANGE THESE YOUR MOM WILL BE THE GAY AND YOUR SISTER WILL BE THE ONE WHOM I FUCK EVERYDAY 7 TIMES😳
 """
 import datetime
 from telethon import events
@@ -7,7 +11,7 @@ from telethon.tl.functions.account import UpdateNotifySettingsRequest
 from userbot import bot, CMD_HELP
 from userbot.utils import admin_cmd
 
-#@register(outgoing=True, pattern="^.q(?: |$)(.*)")
+#@register(outgoing=True, pattern="^.e(?: |$)(.*)")
 @borg.on(admin_cmd(pattern=r"emojify(?: |$)(.*)"))
 async def _(event):
     if event.fwd_from:
