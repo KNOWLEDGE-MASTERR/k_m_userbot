@@ -8,7 +8,7 @@ from userbot import bot, CMD_HELP
 from userbot.utils import admin_cmd
 
 #@register(outgoing=True, pattern="^.q(?: |$)(.*)")
-@borg.on(admin_cmd(pattern=r"qbot(?: |$)(.*)"))
+@borg.on(admin_cmd(pattern=r"emojify(?: |$)(.*)"))
 async def _(event):
     if event.fwd_from:
         return 
@@ -19,7 +19,7 @@ async def _(event):
     if not reply_message.text:
        await event.edit("```Reply to text message```")
        return
-    chat = "@QuotLyBot"
+    chat = "@emojifierbot"
     sender = reply_message.sender
     if reply_message.sender.bot:
        await event.edit("```Reply to actual users message.```")
@@ -31,7 +31,7 @@ async def _(event):
               await bot.forward_messages(chat, reply_message)
               response = await response 
           except YouBlockedUserError: 
-              await event.reply("```Please unblock EmojiFier and try again```")
+              await event.reply("```Please unblock @emojifierbot and try again```")
               return
           if response.text.startswith("Hi!"):
              await event.edit("```Can you kindly disable your forward privacy settings for good?```")
